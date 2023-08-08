@@ -1,6 +1,19 @@
+def create_empty():
+    test_dict = {}
+    print(test_dict)
+    print(f'length: {len(test_dict)}')
+
+    print()
+
+    test_dict1 = dict()
+    print(test_dict1)
+    print(f'length: {len(test_dict1)}')
+
+
 def create():
     test_dict = {'one': 1, 'two': 2, 'three': 3}
     print(test_dict)
+    print(f'length: {len(test_dict)}')
 
 
 def get_or_access_element():
@@ -65,8 +78,51 @@ def loop_enumerate_keys():
         print(f'{key} = {test_dict.get(key)}')
 
 
+def loop_enumerate_values():
+    test_dict = {'one': 1, 'two': 2, 'three': 3}
+
+    for val in test_dict.values():
+        print(val)
+
+
+def Pop():
+    test_dict = {'one': 1, 'two': 2, 'three': 3}
+
+    val_poped = test_dict.pop('two')
+
+    print(f'val_poped: {val_poped}')
+    print(f'test_dict: {test_dict}')
+
+
+def check_if_key_exist():
+    test_dict = {'one': 1, 'two': 2, 'three': 3}
+
+    key = 'one'
+    if key in test_dict:
+        print(f'{key} exits')
+    else:
+        print(f'{key} is missing')
+
+    print()
+
+    if test_dict.get(key):
+        print(f'{key} exits')
+    else:
+        print(f'{key} is missing')
+
+    print()
+
+    key = 'six'
+    if key in test_dict:
+        print(f'{key} exits')
+    else:
+        print(f'{key} is missing')
+
+
 if __name__ == '__main__':
+    create_empty()
     # create()
+
     # get_or_access_element()
 
     # access_element_missing()
@@ -77,8 +133,9 @@ if __name__ == '__main__':
     # modify_elements()
 
     # loop_enumerate_dict()
-    loop_enumerate_keys()
+    # loop_enumerate_keys()
+    # loop_enumerate_values()
 
-    # delete
-    # enumerate
-    # modify
+    # Pop()
+
+    # check_if_key_exist()

@@ -1,2 +1,78 @@
-- Работы с файлами
-- Параметры из командной строки
+
+• Varibales
+• Print
+• Conditions
+
+• GIT | Crater Repo | ssh ключи (и что это) | Как работать с GIT-ом
+
+• Functions
+	-	Passing Information to a Function
+	-	Positional Arguments
+	-	Return value
+
+• Loops
+	- 	for
+	- 	while
+	- 	enumerate
+
+• Как установить Python
+	- Pip
+	- Как запустить прогу 
+	- venv
+	- Версии Pyhon
+
+• String
+
+• Collections 1
+	-	List
+	-	Dict
+	-	Tupple
+
+
+# ----------------------------------- NEXT  -----------------------------------
+
+• Files:
+	-   Read
+	-   Write
+	-   Path
+
+• JSON
+
+# -----------------------------------------------------------------------------
+
+• Параметры из командной строки
+
+
+
+
+• Collections 2
+	-	List: subliststs
+	-	Dict: ???
+    -   Set
+
+
+• Functions
+	-	Task: написать функцию принимающую на вход LIST
+	-	Task: написать функцию возвращающую LIST
+
+
+• Classes
+
+• Lambdas
+
+• Data Time
+
+• Decorators
+
+• ContextManagers
+
+• Random
+
+# -----------------------------------
+
+• Requests
+
+• API
+
+• Flask
+
