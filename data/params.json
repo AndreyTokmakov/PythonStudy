@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Jack",
+        "topics": [
+            "Python",
+            "Data Structures and Algorithms"
+        ]
+    },
+    {
+        "name": "Sofie",
+        "topics": [
+            "Java",
+            "Functional Programming"
+        ]
+    }
+ ]
