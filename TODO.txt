@@ -64,31 +64,38 @@
 • JSON
 
 
+#-------------------------------------------------------------------------------------
+# 		Python Crash Course, 2nd Edition.pdf
+#      Python_Cookbook,_3rd_Edition_Recipes_for_Mastering_Python_3_by_David.pdf
 # ----------------------------------- NEXT  -----------------------------------
 
-• Iterators
+	- for
+		- idx
+		- list
+		- dict
 
-• Classes
-	- статические методы
-	- свойства
+	- while
 
+	- enumerate
 
-• Параметры из командной строки
+	- if | elif | else
+	-
 
 
 # -----------------------------------------------------------------------------
 
-• Classes
+• MultiThreading.py
 
 • Lambdas
 
-• ContextManagers
+
 
 # -----------------------------------
 
 • Requests
 
 • API
+	- FastAPI
 
 • Flask
 
